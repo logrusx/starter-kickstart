@@ -678,25 +678,6 @@ require('lazy').setup({
 
       require('java').setup {
         -- Your custom jdtls settings goes here
-        jdk = { auto_install = false},
-        jdtls = {
-          version = "*"
-        },
-        java_test = {
-          version = "*"
-        },
-        java_debug_adapter = {
-          version = "*"
-        },
-        spring_boot_tools = {
-          version = "*"
-        },
-        mason = {
-          registries = {
-            --         "github:mason-org/mason-registry",
-            --         "github:nvim-java/mason-registry",
-          }
-        },  
       }
 
       -- The following loop will configure each server with the capabilities we defined above.
